@@ -1,0 +1,7 @@
+python3.7 main.py -i test_variants.tsv -f data/pwm_format/ -o out.tsv -t 95 -m 0.5 -p 2
+
+python3.7 main.py -i test_variants.tsv -f data/pfm_format/ -o out_test.tsv -t 95 -m 0.5 -p 2
+
+python3.7 main.py -i test_variants_1.tsv -f data/pfm_format/ -o out_tfbs_0.tsv -t 0 -m 0 -n 0 -p 20
+
+python3.7 main.py -i test_variants_5.tsv -f data/pfm_format/ -o out_irf6.tsv -p 20
