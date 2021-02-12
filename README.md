@@ -78,9 +78,9 @@ python3 main.py \
 | -f | Path to folder containing the PFM data created by the extract_matrix.R script | String | - |
 | -o | Path to output file | String | - |
 | -g | Path to reference genome file (FASTA) | String | - |
-| -t | Threshold (percentile) for binding affinity of a variant position / transcription factor binding site combination to be included. | Integer | 50 |
-| -m | Minimum information content of position | Float | 1.0 |
-| -n | Minimum information content of base (either reference or alternative) | Float | 0.5 |
+| -t | Threshold (percentile) for binding affinity of a variant position / transcription factor binding site combination to be included. | Integer | 35 |
+| -m | Minimum information content of position | Float | 1.2 |
+| -n | Minimum information content of base (either reference or alternative) | Float | 1.0 |
 | -p | Number of processes to use | Integer | 1 |
 | -q | Pseudocount for PWM generation | Float | 0.8 |
 | -b | Nucleotide background probabilities: A C G T | Float Float Float Float | 0.25 each |
